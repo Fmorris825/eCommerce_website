@@ -10,3 +10,60 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
+
+body {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.nav_emblem {
+    height: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_left {
+    display:flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.nav_right {
+    display: flex;
+    justify-content: end;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-aroun;
+}
