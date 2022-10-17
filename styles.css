@@ -43,7 +43,11 @@ p {
     text-transform: uppercase;
 }
 
-.nav_left {
+.nav-item {
+    text-decoration: none;
+}
+
+/* .nav_left {
     display:flex;
     justify-content: start;
     align-items: center;
@@ -61,9 +65,9 @@ p {
 .nav_middle {
     display: flex;
     align-items: center;
-}
+} */
 
-ul {
+.nav_left ul {
     display: flex;
     list-style: none;
     gap: 10px ;
@@ -126,7 +130,7 @@ li {
 
 .abt_us_img1 {
     display: flex;
-    width: 450px;
+    width: 350px;
     padding: 25px;
 }
 
@@ -136,36 +140,25 @@ li {
     width: 100%;
     justify-content: space-between;
     padding-left: 25px;
-
+    vertical-align: top;
 }
 
 .abt_us_img2 {
-    width: 550px;
+    width: 450px;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
-    padding: 15px;
     object-fit: contain;
-    padding-right: 60px;
-    padding-top: 90px;
+
 }
 
-.card_right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 70px;
-}
+
 
 .card_left {
     display: flex;
     justify-content: row;
 }
 
-.abt_us_text1 {
-    width: 700px;
-    padding: 60px;
-    padding-top: 40px;
-}
+
 
 .column_text {
     display: flex;
@@ -174,3 +167,13 @@ li {
     align-items: center;
     padding-left: 15px;
 }
+
+/* Products */
+
+.product_card {
+    background-color: aqua;
+    width: 300px;
+    height: 375px;
+
+}
+
