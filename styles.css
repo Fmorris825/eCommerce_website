@@ -38,32 +38,139 @@ p {
 
 .navbar {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    text-transform: uppercase;
 }
 
 .nav_left {
     display:flex;
     justify-content: start;
     align-items: center;
+
 }
 
 .nav_right {
     display: flex;
     justify-content: end;
+    align-items: center;
+    gap: 4px;
+    
+}
+
+.nav_middle {
+    display: flex;
+    align-items: center;
 }
 
 ul {
     display: flex;
-    justify-content: space-around;
     list-style: none;
+    gap: 10px ;
 }
 
 a {
     text-decoration: none;
+
 }
 
 li {
     display: flex;
-    justify-content: space-aroun;
+}
+
+.nav_line {
+    margin: auto;
+    
+}
+
+.header_img {
+    height: 500px;
+    margin-top: 20px;
+    position: relative;
+
+}
+
+.forefront_img {
+    height: 500px;
+    width: 100%;
+}
+
+.text_one {
+    position: absolute;
+    top: 17px;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 20px;
+    color: aliceblue;
+    font-weight: 100;
+}
+
+.text_two {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    text-align: end;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 20px;
+    color: aliceblue;
+    font-weight: 100;
+}
+
+.about_us_line {
+    padding: 20px, 20px, 20px, 20px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+
+.abt_us_img1 {
+    display: flex;
+    width: 450px;
+    padding: 25px;
+}
+
+.abt_us_card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 25px;
+
+}
+
+.abt_us_img2 {
+    width: 550px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    padding: 15px;
+    object-fit: contain;
+    padding-right: 60px;
+    padding-top: 90px;
+}
+
+.card_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 70px;
+}
+
+.card_left {
+    display: flex;
+    justify-content: row;
+}
+
+.abt_us_text1 {
+    width: 700px;
+    padding: 60px;
+    padding-top: 40px;
+}
+
+.column_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 15px;
 }
