@@ -150,7 +150,6 @@ li {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     object-fit: contain;
-
 }
 
 
@@ -182,7 +181,7 @@ li {
 .product_image {
     width: 300px;
     height: 225px;
-    object-fit: fill;
+    object-fit: cover;
 }
 
 .message_input {
@@ -212,3 +211,52 @@ li {
     align-items: center;
     margin: 100px;
 }
+
+.contact_button {
+    display: flex;
+    justify-content: end;
+    margin: 50px;
+}
+
+footer {
+    background-color: #bf7631;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_contacts {
+    display: flex;
+    gap: 25px;
+}
+
+.footer_emblem {
+    display: flex;
+
+}
+
+.footer_text {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin: 20px;
+}
+
+
+section {
+    margin: 35px;
+}
+
+.product_title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_page_card {
+    background-color: #bf7631;
+    color: aliceblue;
+    margin: 25px;
+    display: flex;
+    align-items: center;
+}
+
