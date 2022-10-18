@@ -47,25 +47,27 @@ p {
     text-decoration: none;
 }
 
-/* .nav_left {
+ /* .nav_left {
     display:flex;
     justify-content: start;
     align-items: center;
 
-}
+} */
 
 .nav_right {
     display: flex;
-    justify-content: end;
+    gap: 10px
+    ;
+    /* justify-content: end;
     align-items: center;
-    gap: 4px;
+    gap: 4px; */
     
 }
 
 .nav_middle {
     display: flex;
-    align-items: center;
-} */
+    /* align-items: center; */
+}
 
 .nav_left ul {
     display: flex;
@@ -197,4 +199,16 @@ li {
     justify-content: space-around;
     margin: 25px;
 
+}
+
+#contact_us {
+    margin: 25px;
+    margin-top: 100px;
+}
+
+.contact_input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
 }
