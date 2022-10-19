@@ -11,6 +11,7 @@ html {
     font-size: 62.5%;
 }
 
+
 body {
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      
@@ -18,10 +19,12 @@ body {
 
 h1 {
     font-size: 45px;
+    margin: 15px;
 }
 
 h2 {
     font-size: 30px;
+    margin: 10px;
 }
 
 h3 {
@@ -42,38 +45,36 @@ p {
     justify-content: space-between;
     padding: 10px;
     text-transform: uppercase;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+a {
+    color: black;
+}
+
+a:hover {
+    color: #bf7631;
 }
 
 .nav-item {
     text-decoration: none;
+    list-style: none;
 }
 
- /* .nav_left {
-    display:flex;
-    justify-content: start;
-    align-items: center;
-
-} */
 
 .nav_right {
     display: flex;
-    gap: 10px
-    ;
-    /* justify-content: end;
-    align-items: center;
-    gap: 4px; */
-    
+    gap: 10px;
 }
 
 .nav_middle {
     display: flex;
-    /* align-items: center; */
 }
 
 .nav_left ul {
     display: flex;
     list-style: none;
-    gap: 10px ;
+    gap: 20px;
 }
 
 li a {
@@ -85,9 +86,6 @@ li a {
     text-decoration: none;
 }
 
-li {
-    display: flex;
-}
 
 .nav_line {
     margin: auto;
@@ -98,7 +96,13 @@ li {
     height: 500px;
     margin-top: 20px;
     position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2px;
 
+}
+
+.abt_us_text1 {
+    margin: 15px;
 }
 
 .forefront_img {
@@ -138,7 +142,10 @@ li {
 .abt_us_img1 {
     display: flex;
     width: 350px;
-    padding: 25px;
+    margin: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2px;
+
 }
 
 .abt_us_card {
@@ -155,6 +162,8 @@ li {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     object-fit: contain;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2px;
 }
 
 
@@ -171,7 +180,8 @@ li {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding-left: 15px;
+    margin: 15px;
+
 }
 
 /* Products */
@@ -179,11 +189,18 @@ li {
 .product_card {
     width: 330px;
     margin: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    border-radius: 2px;
 
 }
 
+.product_card:hover {
+    background-color: #F5F5F5;
+}
+
 .product_image {
-    width: 330px;
+    width: 310px;
     height: 225px;
     object-fit: cover;
 }
@@ -231,11 +248,14 @@ footer {
 
 .footer_contacts {
     display: flex;
-    gap: 25px;
+    gap: 20px;
+    align-items: center;
 }
 
 .footer_emblem {
     display: flex;
+    align-items: center;
+
 
 }
 
@@ -269,4 +289,97 @@ section {
     justify-content: space-between;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.learn_more {
+    color: #bf7631;
+}
+
+.add_to_cart {
+    display: flex;
+    background-color: #bf7631;
+    color: aliceblue;
+    width: 115px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+}
+
+.contact_box {
+    margin: 25px;
+}
+
+hr {
+    margin: 10px;
+
+}
+
+input {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer_contacts a img {
+    height: 60px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+  }
+
+
+@media (max-width: 600px) {
+body {
+    background-color: aqua;
+    font-size: 12px;
+}
+p {
+    font-size: 12px;
+}
+h1 {
+    font-size: 20px;
+}
+h2 {
+    font-size: 16px;
+}
+h3 {
+    font-size: 12px;
+}
+
+.navbar {
+    flex-wrap: wrap;
+    display: flex;
+}
+img {
+    object-fit: scale-down;
+    height: 100px;
+    width: 100px;
+}
+#about_us {
+    flex-wrap: wrap;
+}
+.card_container {
+    flex-wrap: wrap;
+    object-fit: scale-down;
+}
+
+.product_card {
+    flex-wrap: wrap;
+
+}
 }
